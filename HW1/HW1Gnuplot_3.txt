@@ -1,0 +1,8 @@
+set xrange [0:2*pi]
+set yrange [0:2*pi]
+set zrange [-1:1]
+set xlabel "x"
+set ylabel "y"
+set zlabel "F(x,y)"
+set view equal xyz
+splot cos(x)*sin(y)

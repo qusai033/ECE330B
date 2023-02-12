@@ -1,0 +1,6 @@
+set xrange [-6:6]
+set yrange [-1:1]
+set xlabel "independent variable"
+set ylabel "dependent variable"
+set title "cos(x)"
+plot cos(x) with points

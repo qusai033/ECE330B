@@ -1,0 +1,6 @@
+set xrange [-5:5]
+set yrange [-1.5:1.5]
+set xlabel "x-axis"
+set ylabel "y-axis"
+set key right bottom
+plot x<0 ? -1 : 1 title 'f1(x)', tanh(x) title 'f2(x)', x/(x+1) title 'f3(x)'

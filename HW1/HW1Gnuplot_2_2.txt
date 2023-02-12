@@ -1,0 +1,26 @@
+set xrange [-5:5]
+set yrange [-1:1]
+set samples 100
+
+f1(x) = (x<0) ? -1 : (x>0) ? 1 : 0
+f2(x) = tanh(x)
+f3(x) = x/(x+1)
+
+set multiplot layout 3,1
+
+plot f1(x) with lines lc rgb "red"
+xlabel "x-axis"
+ylabel "y-axis"
+title "f1(x)"
+
+plot f2(x) with lines lc rgb "green"
+xlabel "x-axis"
+ylabel "y-axis"
+title "f2(x)"
+
+plot f3(x) with lines lc rgb "blue"
+xlabel "x-axis"
+ylabel "y-axis"
+title "f3(x)"
+
+unset multiplot

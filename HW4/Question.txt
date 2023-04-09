@@ -1,0 +1,2 @@
+Question Answer Deliverable
+The limit of h for the Euler Method (EM) such that the oscillations increase  by less than 1% over a period of 1 oscillation is 0.0019

@@ -1,0 +1,8 @@
+set key bottom right
+set key box
+set xlabel 'Independent Variable'
+set ylabel 'Dependent Variable'
+set title 'Deliverable 2 - Data Points and LSF with Parabola'
+f(x) = -0.2673*(x*x) + 3.5232*x - 0.9286
+plot [1:9] f(x) w linespoints pointtype 2 lt 6 lw 1,\
+'LSF_data.dat' w points pointtype 88 lc rgb "black"

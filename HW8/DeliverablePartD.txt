@@ -1,0 +1,2 @@
+From Testing Starting Vector: [1.7020    0.7470    1.8893    1.3010    0.2414    1.3032    0.9911    2.5396    2.6981    3.0103]
+Produced the smallest minimum of -6.0244
